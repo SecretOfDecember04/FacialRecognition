@@ -1,16 +1,23 @@
 Face Recognition System
+
 This project is a real-time face recognition system using OpenCV, DeepFace, and face_recognition libraries in Python. The system captures video from the webcam, detects faces, and verifies them against a set of reference images or a single reference image. The program dynamically displays whether the captured face matches the reference image(s).
 
 Note: The reference image provided in this repository is for demonstration purposes only. You can update the reference images by adding your own pictures to the specified directory or using a dataset of images.
 
 Features
+
 Real-time Face Detection: Captures live video feed from your webcam and detects faces in real-time.
 Face Recognition: Verifies detected faces against a reference image or dataset.
 Dynamic GUI: Displays a real-time video feed with face bounding boxes and match status.
 Full-Screen Mode: The video feed occupies the entire screen for a better viewing experience.
 Graceful Exit: Properly handles exit signals and ensures the camera is released and windows are closed when the program is interrupted.
+
 Installation
+
+
 Prerequisites
+
+
 Make sure you have Python 3.x installed on your system. You will also need to install the following Python libraries:
 
 pip install opencv-python-headless deepface face_recognition screeninfo
@@ -55,6 +62,7 @@ Contributing
 Feel free to fork this repository, make improvements, and submit pull requests. Contributions are welcome!
 
 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgments
